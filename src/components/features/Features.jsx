@@ -16,8 +16,7 @@ const Features = () => {
                     <h4 className="title"><a href>How we Can Help You Achieve More</a></h4>
                     <p className="description">
                     SoftTeacher provides two-way learning by taking inputs and prompting immediate feedback to the learners. 
-                    It improves learner’s cognitive skills by requiring them to make a decision about a situation or circumstance and then, 
-                    use their motor skills to (tap/touch/click/hover over) an object to quantify or analyze their selection. 
+                    It improves learners cognitive skills by requiring them to make a decision about a situation or circumstance and... 
                     </p>
                     </div>
                 </div>
@@ -37,7 +36,7 @@ const Features = () => {
                     <h4 className="title"><a href> Instant feedback </a></h4>
                     <p className="description">
                     SoftTeachers provides instant feedback to learners upon completion of an activity, a puzzle or a game. Learners can immediately evaluate 
-                    themselves and make corrections to the incorrect answers. 
+                    themselves and make corrections to the... 
                     </p>
                     </div>
                 </div>

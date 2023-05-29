@@ -14,11 +14,11 @@ const Header = () => {
             <nav className="main-nav float-right d-none d-lg-block">
             <ul>
                 <li className="active"><a href="#intro">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#team">Team</a></li>
-                <li className="drop-down"><a href>Drop Down</a>
+                <li><a href="#about">About App</a></li>
+                <li><a href="#about">Mission & Vision</a></li>
+                <li><a href="#services">Key Features</a></li>
+                <li><a href="#portfolio">Snapshots</a></li>
+                <li className="drop-down"><a href>Downloads</a>
                 <ul>
                     <li><a href="#">Drop Down 1</a></li>
                     <li className="drop-down"><a href="#">Drop Down 2</a>
