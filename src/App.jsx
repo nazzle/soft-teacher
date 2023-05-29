@@ -6,6 +6,7 @@ import Features from './components/features/Features'
 import Choose from './components/choose/Choose'
 import Mission from './components/mission/Mission'
 import Snapshots from './components/snapshots/Snapshots'
+import Footer from './components/footer/Footer'
 // BOOTSTRAP CSS FILE
 import './assets/lib/bootstrap/css/bootstrap.min.css'
 // Libraries CSS Files
@@ -29,6 +30,7 @@ const App = () => {
       <Choose />
       <Snapshots />
     </main>
+    <Footer />
     </>
   )
 }
