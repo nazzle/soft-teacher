@@ -31,6 +31,8 @@ const App = () => {
       <Snapshots />
     </main>
     <Footer />
+    <a href="#" className="back-to-top"><i className="fa fa-chevron-up" /></a>
+    {/* <div id="preloader"></div> */}
     </>
   )
 }
