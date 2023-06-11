@@ -4,7 +4,7 @@ import './mission.css'
 const Mission = () => {
   return (
     <>
-        <section id="why-us" className="wow fadeIn">
+        <section id="mission" className="wow fadeIn">
             <div className="container">
                 <header className="section-header">
                 <h3>Mission & Vision</h3>
