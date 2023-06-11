@@ -54,7 +54,7 @@ const Footer = () => {
                 © Copyright <strong>Soft Teacher</strong>. All Rights Reserved
                 </div>
                 <div className="credits">
-                Designed by <a href="https://nazzlespace.co.tz" target='_blank'>nazzleSpace</a>
+                Developed by <a href="https://nazzlespace.co.tz" target='_blank'>nazzleSpace</a>
                 </div>
             </div>
         </footer>

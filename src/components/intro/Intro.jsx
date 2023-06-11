@@ -1,5 +1,8 @@
 import React from 'react'
 import './intro.css'
+import IntroHeader from "./IntroHeader";
+import IntroButtons from "./IntroButtons";
+import STIMG from '../../assets/img/st.png'
 
 const Intro = () => {
   return (
@@ -7,13 +10,12 @@ const Intro = () => {
         <section id="intro" className="clearfix">
             <div className="container">
                 <div className="intro-img">
-                <img src="img/intro-img.svg" alt="" className="img-fluid" />
+                <img src={STIMG} alt="" className="img-fluid intro-image" />
                 </div>
                 <div className="intro-info">
-                <h2>Unlock your<br /><span>Potential</span><br /></h2>
+                    <IntroHeader />
                 <div>
-                    <a href="#about" className="btn-get-started scrollto">Download</a>
-                    <a href="#services" className="btn-services scrollto">Learn More</a>
+                    <IntroButtons />
                 </div>
                 </div>
             </div>
