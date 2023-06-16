@@ -17,6 +17,7 @@ import './assets/lib/owlcarousel/assets/owl.carousel.min.css'
 import './assets/lib/lightbox/css/lightbox.min.css'
 // Main Stylesheet File
 import './assets/css/style.css'
+import Downloads from "./components/downloads/Downloads";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Mission />
       <Features />
       <Choose />
+      <Downloads />
       <Snapshots />
     </main>
     <Footer />

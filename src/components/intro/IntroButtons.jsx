@@ -4,7 +4,7 @@ class IntroButtons extends Component {
     render() {
         return (
             <>
-                <a href="#about" className="btn-get-started scrollto">Download</a>
+                <a href="#downloads" className="btn-get-started scrollto">Download</a>
                 <a href="#services" className="btn-services scrollto">Learn More</a>
             </>
         );
