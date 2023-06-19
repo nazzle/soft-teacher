@@ -291,6 +291,16 @@
     background-image: -o-linear-gradient(#62bc30, #72ce3f);
     background-image: -ms-linear-gradient(#62bc30, #72ce3f);
     background-image: linear-gradient(#62bc30, #72ce3f);
+    cursor: pointer;
+}
+
+#pricing-table .coming {
+    background: burlywood;
+}
+
+#pricing-table .coming:hover {
+    background: burlywood;
+    cursor: default;
 }
 
 #pricing-table .signup:active, #pricing-table .signup:focus {

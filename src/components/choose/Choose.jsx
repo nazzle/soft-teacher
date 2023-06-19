@@ -8,7 +8,7 @@ const Choose = () => {
             <div className="container">
                 <header className="section-header">
                 <h3>Why choose our App?</h3>
-                <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                <p>Provides vast techniques on problems solving skills that will improve child IQ.</p>
                 </header>
                 <div className="row counters">
                 <div className="col-lg-3 col-6 text-center">

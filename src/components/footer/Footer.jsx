@@ -10,14 +10,17 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 footer-info">
                     <h3>Soft-Teacher</h3>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                    <p>
+                        SoftTeacher makes eLearning pleasing to the eye, hold learners
+                        attention, elicit some form of emotion, and entertain them in some way.
+                    </p>
                     </div>
                     <div className="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="#downloads">Downloads</a></li>
+                        <li><a href="#services">Features</a></li>
+                        <li><a href="#why-us">Why Choose Us</a></li>
                         <li><a href="#">Terms of service</a></li>
                         <li><a href="#">Privacy policy</a></li>
                     </ul>
@@ -25,24 +28,26 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6 footer-contact">
                     <h4>Contact Us</h4>
                     <p>
-                        A108 Adam Street <br />
-                        New York, NY 535022<br />
-                        United States <br />
-                        <strong>Phone:</strong> +1 5589 55488 55<br />
-                        <strong>Email:</strong> info@example.com<br />
+                        Kinondoni <br />
+                        Dar es Salaam, Tanzania<br />
+                        East Africa <br />
+                        <strong>Phone:</strong> +255 769 765 563<br />
+                        <strong>Email:</strong> info@softteacher.com<br />
                     </p>
                     <div className="social-links">
-                        <a href="#" className="twitter"><i className="fa fa-twitter" /></a>
-                        <a href="#" className="facebook"><i className="fa fa-facebook" /></a>
-                        <a href="#" className="instagram"><i className="fa fa-instagram" /></a>
-                        <a href="#" className="google-plus"><i className="fa fa-google-plus" /></a>
-                        <a href="#" className="linkedin"><i className="fa fa-linkedin" /></a>
+                        <a href="#" className="twitter" title="Our socials are coming soon"><i className="fa fa-twitter" /></a>
+                        <a href="#" className="facebook" title="Our socials are coming soon"><i className="fa fa-facebook" /></a>
+                        <a href="#" className="instagram" title="Our socials are coming soon"><i className="fa fa-instagram" /></a>
                     </div>
                     </div>
                     <div className="col-lg-3 col-md-6 footer-newsletter">
                     <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-                    <form action method="post">
+                    <p>
+                        If you want to get notifications or updates when other releases are out,
+                        you can always subscribe to our newsletters notifications by filling your
+                        email down here. You can unsubscribe anytime.
+                    </p>
+                    <form>
                         <input type="email" name="email" /><input type="submit" defaultValue="Subscribe" />
                     </form>
                     </div>
