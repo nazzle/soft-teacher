@@ -5,6 +5,7 @@ import GRADEONE from '../../assets/img/gradeone.png'
 import GRADETWO from '../../assets/img/gradetwo.png'
 import  COMINGSOON from '../../assets/img/comingsoon.png'
 import WINDOWS from '../../assets/img/windowslogo.png'
+import * as CONSTANTS from '../constants/api'
 
 class Downloads extends Component {
     render() {
@@ -55,7 +56,7 @@ class Downloads extends Component {
                             <div id="pricing-table" className="clear">
                                 <div className="plan">
                                     <h3>Pre-School/Nursery<span><img src={PRESCHOOL} alt="" className="img-fluid intro-image" /></span></h3>
-                                    <a className="signup" href>Download</a>
+                                    <a className="signup" href={CONSTANTS.PRESCHOOLAPP} >Download</a>
                                     <ul>
                                         <li><b>6</b> Subjects</li>
                                         <li><b>12</b> Topics</li>
@@ -65,7 +66,7 @@ class Downloads extends Component {
                                 </div>
                                 <div className="plan" id="most-popular">
                                     <h3>Grade 1<span><img src={GRADEONE} alt="" className="img-fluid intro-image" /></span></h3>
-                                    <a className="signup" href>Download</a>
+                                    <a className="signup" href={CONSTANTS.GRADE1APP} >Download</a>
                                     <ul>
                                         <li><b>7</b> Subjects</li>
                                         <li><b>13</b> Topics</li>
@@ -75,7 +76,7 @@ class Downloads extends Component {
                                 </div>
                                 <div className="plan">
                                     <h3>Grade 2<span><img src={GRADETWO} alt="" className="img-fluid intro-image" /></span></h3>
-                                    <a className="signup" href>Download</a>
+                                    <a className="signup" href={CONSTANTS.GRADE2APP} >Download</a>
                                     <ul>
                                         <li><b>6</b> Subjects</li>
                                         <li><b>40</b> Topics</li>
@@ -85,7 +86,7 @@ class Downloads extends Component {
                                 </div>
                                 <div className="plan">
                                     <h3>Other Grades<span><img src={COMINGSOON} alt="" className="img-fluid intro-image" /></span></h3>
-                                    <a className="signup" href>Coming...</a>
+                                    <a className="signup coming" href>Coming...</a>
                                     <ul>
                                         <li> Want to get  <b>notification</b> when other releases are out?</li>
                                         <li>Register for newsletter notifications down <i className="fa fa-arrow-circle-o-down"></i> </li>
