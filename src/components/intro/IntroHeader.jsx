@@ -20,7 +20,7 @@ class IntroHeader extends Component {
         const { introHeaders } = this.state
         return (
             <>
-                <h2>{introHeaders.headerText}<br /><span>{introHeaders.headerTextSpan}</span><br /></h2>
+                <h4>{introHeaders.headerText}<br /><span>{introHeaders.headerTextSpan}</span><br /></h4>
             </>
         );
     }
